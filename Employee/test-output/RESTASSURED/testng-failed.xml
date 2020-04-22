@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [RESTASSURED]">
+  <test thread-count="5" name="EmployeeProject(failed)">
+    <classes>
+      <class name="testCases.TC002_POST_getEmployeeData">
+        <methods>
+          <include name="getEmployeeData"/>
+          <include name="getResponseCode"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- testCases.TC002_POST_getEmployeeData -->
+    </classes>
+  </test> <!-- EmployeeProject(failed) -->
+</suite> <!-- Failed suite [RESTASSURED] -->
